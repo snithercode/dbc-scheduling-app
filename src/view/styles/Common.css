@@ -1,0 +1,73 @@
+/* Header Styles */
+/* Table header background with top border and bottom border */
+.table-view .column-header,
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+    -fx-border-color: #4a54b2 transparent #d6d6d6 #d6d6d6;
+    -fx-border-width: 2px 1px 1px 0;
+}
+
+/* Table header label alignment and padding */
+.table-view .column-header .label {
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 5px;
+}
+
+/* Table header text color */
+.table-view .column-header .text {
+    -fx-fill: #333;
+}
+
+/* Vertical lines between column headers */
+.table-view .column-header .separator {
+    -fx-background-color: #d6d6d6;
+    -fx-padding: 0 0 0 2px;
+    -fx-background-insets: 0, 1 0 0 0;
+}
+
+/* Apply the same background color to the filler as to the headers */
+.table-view .column-header-background .filler {
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent transparent #ffffff transparent;
+    -fx-border-width: 2px 0 1px 0;
+}
+
+/* Row and Cell Styles */
+.table-view .table-row-cell:odd {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #f2f2f2;
+}
+
+.table-view .table-row-cell {
+    -fx-text-fill: #333;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #d6d6d6;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 8px;
+}
+
+/* Focus and Selection Styles */
+
+.table-view .table-row-cell:focused {
+    -fx-background-color: #e5e5e5;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #fdffc9;
+}
+
+/* Text color for focused and selected rows */
+.table-view .table-row-cell:selected .text,
+.table-view .table-row-cell:selected .cell {
+    -fx-text-fill: #333;
+}
+
+.table-view .table-row-cell:focused .text,
+.table-view .table-row-cell:focused .cell {
+    -fx-text-fill: #333;
+}
