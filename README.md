@@ -24,3 +24,12 @@ The purpose of this was to build a desktop scheduling application with a graphic
 
 ## Running the Program
 The program can be run from `app.Main` within the IDE. This will launch the program and bring the user to the User Login page. To log in, enter a valid set of credentials based on existing user data in the connected MySQL database.
+
+## Application Views
+
+### Reports
+![Sample Image Of Reports Feature](assets/reports.PNG)
+### Appointments
+![Sample Image Of Appointments Feature](assets/appointments.PNG)
+### Customers
+![Sample Image Of Customers Feature](assets/customers.PNG)
