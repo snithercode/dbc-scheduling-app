@@ -26,18 +26,3 @@ The purpose of this was to build a desktop scheduling application with a graphic
 
 ## Running the Program
 The program can be run from `app.Main` within the IDE. This will launch the program and bring the user to the User Login page. To log in, enter a valid set of credentials based on existing user data in the connected MySQL database.
-
-    *Additional Note For Evaluator: Avoid using the Logout Button while doing time-related testing.
-    See userLogout() JavaDoc for more context.
-
-### Test Credentials
-For my testing, I used the following credentials:
-
-| Username | Password |
-|----------|----------|
-| test     | test     |
-| admin    | admin    |
-
-
-## Additional Report For A3F
-The additional report I opted to include was another aggregate report for displaying a breakdown of the number of appointments by contact and quarter. It displays a count of appointments associated with each contact (if there were any for that contact) for each quarter of the year.

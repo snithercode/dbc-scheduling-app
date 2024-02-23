@@ -24,8 +24,3 @@ The purpose of this was to build a desktop scheduling application with a graphic
 
 ## Running the Program
 The program can be run from `app.Main` within the IDE. This will launch the program and bring the user to the User Login page. To log in, enter a valid set of credentials based on existing user data in the connected MySQL database.
-
-    *Additional Note For Evaluator: Avoid using the Logout Button while doing time-related testing. 
-    See userLogout() JavaDoc for more context.
-
-# dbc-scheduling-app
